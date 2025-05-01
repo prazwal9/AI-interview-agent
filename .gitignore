@@ -32,6 +32,9 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+*.pem
+*.key
+*.crt
 
 # vercel
 .vercel
@@ -39,3 +42,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#firebase
+preppal-4f3d9-firebase-adminsdk-fbsvc-0396435861.json
